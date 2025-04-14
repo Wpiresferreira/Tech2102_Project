@@ -7,31 +7,12 @@ html {
     margin: 0;
   }
    
-  section,
-  form {
+  section {
     padding: 1rem;
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
     margin: 2rem auto;
     max-width: 40rem;
-  }
-   
-  .form-control {
-    margin: 0.5rem 0;
-  }
-   
-  input {
-    font: inherit;
-  }
-   
-  input,
-  label {
-    display: block;
-  }
-   
-  label {
-    font-weight: bold;
-    margin-bottom: 0.5rem;
   }
    
   button {

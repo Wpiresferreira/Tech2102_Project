@@ -3,8 +3,8 @@
 
 
 import express from 'express';
+import bodyParser from 'body-parser';
 
-const bodyParser = require('body-parser');
  
 const app = express();
 
@@ -27,13 +27,6 @@ app.get('/', (req, res) => {
         <section>
           <h2>Hello Tech2102 Final Project!</h2>
         </section>
-        <form action="/store-goal" method="POST">
-          <div class="form-control">
-            <label>Message</label>
-            <input type="text" name="goal">
-          </div>
-          <button>Send Message</button>
-        </form>
       </body>
     </html>
   `);
