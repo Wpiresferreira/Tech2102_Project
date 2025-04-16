@@ -1,14 +1,3 @@
-
-
-
-FROM nodesource/nsolid
-WORKDIR /app
-
-
-
-
-
-
 FROM node
 
 WORKDIR /app
