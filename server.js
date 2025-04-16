@@ -26,6 +26,8 @@ app.get('/', (req, res) => {
       <body>
         <section>
           <h2>Hello Tech2102 Final Project!</h2>
+          <br>
+          <h2>File Changed</h2>
         </section>
       </body>
     </html>
